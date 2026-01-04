@@ -264,6 +264,41 @@ Lista todas las categorías.
 
 ---
 
+- **POST** `/users/auth` — Authenticate a user
+- **GET** `/users` — List all users
+
+> ℹ️ The examples below use the sample payloads and responses you provided.
+
+---
+
+## 🔐 Authentication
+
+- `POST /users/auth`  
+  Authenticate a user with username and password.
+
+### Request
+
+```http
+POST /users/auth HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "estudiante",
+  "password": "123"
+}
+```
+
+### Response (example)
+
+```json
+{
+  "responseCode": "SUCESSFUL",
+  "message": "Action executed sucessfully."
+}
+```
+
+---
+
 ## Ejemplos `curl`
 
 **Crear con imagen PNG**
