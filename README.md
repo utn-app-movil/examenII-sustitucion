@@ -13,16 +13,17 @@ API con envelope estándar en todas las respuestas:
 ```
 
 ## Response Codes
-- `_INFO_FOUND`
-- `_INFO_NOT_FOUND`
-- `_MISSING_PARAMETERS`
-- `_SUCESSFUL` (sic)
-- `_DUPLICATE_DATA`
-- `_INTERNAL_ERROR`
+- `INFO_FOUND`
+- `INFO_NOT_FOUND`
+- `MISSING_PARAMETERS`
+- `SUCESSFUL` (sic)
+- `DUPLICATE_DATA`
+- `INTERNAL_ERROR`
 
 ## Base URL
 - PC: `http://localhost:3000`
 - Android Emulator: `http://10.0.2.2:3000/`
+- Cloud: https://apiproduct-d4aefnf0h9gscvc4.eastus-01.azurewebsites.net
 
 ## Modelo `Producto`
 ```json
@@ -278,12 +279,12 @@ curl -X POST http://localhost:3000/api/products   -H "Content-Type: application/
 
 **Actualizar nombre y precio**
 ```bash
-curl -X PUT http://localhost:3000/api/products/2   -H "Content-Type: application/json"   -d '{ "nombre":"Termo 1.2L", "precio":14.90 }'
+curl -X PUT https://apiproduct-d4aefnf0h9gscvc4.eastus-01.azurewebsites.net/api/products/2   -H "Content-Type: application/json"   -d '{ "nombre":"Termo 1.2L", "precio":14.90 }'
 ```
 
 **Eliminar**
 ```bash
-curl -X DELETE http://localhost:3000/api/products/1
+curl -X DELETE https://apiproduct-d4aefnf0h9gscvc4.eastus-01.azurewebsites.net/api/products/1
 ```
 
 ---
