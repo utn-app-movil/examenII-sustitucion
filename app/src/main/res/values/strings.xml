@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Products</string>
     <string name="postRestApi">Post products</string>
+    <string name="lbUsername">Nombre de usuario</string>
+    <string name="lbPassword">Contraseña</string>
+    <string name="btnLogin">Iniciar Sesión</string>
+    <string name="btnListar">LIstar productos</string>
+    <string name="btnAgregar">Agregar producto</string>
 </resources>

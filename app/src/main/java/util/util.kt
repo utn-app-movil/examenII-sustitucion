@@ -9,10 +9,10 @@ const val EXTRA_ID = "cr.ac.utn.appmovil.product"
 
 class util {
     companion object{
-        var apiURL = ""
+        var apiURL = "https://apiproduct-d4aefnf0h9gscvc4.eastus-01.azurewebsites.net"
 
         fun openActivity(context: Context
-                         , objClass: Class<*>, extraName: String="", value: String?=null){
+                         , objClass: Class<*>, extraName: String="", value: Int?=null){
             val intent= Intent(
                 context, objClass
             ).apply { putExtra(extraName, value)}

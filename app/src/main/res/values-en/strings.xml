@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Products</string>
+    <string name="postRestApi">Post Products</string>
+    <string name="lbUsername">Username</string>
+    <string name="lbPassword">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnListar">LIst products</string>
+    <string name="btnAgregar">Add product</string>
+</resources>
