@@ -1,4 +1,4 @@
-package util
+package cr.ac.utn.appmovil.products.util
 
 import android.app.AlertDialog
 import android.content.Context
@@ -9,7 +9,13 @@ const val EXTRA_ID = "cr.ac.utn.appmovil.product"
 
 class util {
     companion object{
-        var apiURL = ""
+
+        var apiURL = "https://apiproduct-d4aefnf0h9gscvc4.eastus-01.azurewebsites.net/"
+
+        // URLs alternativas (comentadas para referencia):
+        // Para emulador Android: "http://10.0.2.2:3000/"
+        // Para dispositivo físico: "http://TU_IP_LOCAL:3000/"
+        // Para localhost en PC: "http://localhost:3000/"
 
         fun openActivity(context: Context
                          , objClass: Class<*>, extraName: String="", value: String?=null){

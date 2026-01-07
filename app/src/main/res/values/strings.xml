@@ -1,4 +1,90 @@
 <resources>
+    <!-- App Name -->
     <string name="app_name">Products</string>
+
+    <!-- API Related -->
     <string name="postRestApi">Post products</string>
+
+    <!-- Login Screen -->
+    <string name="app_title">Room Reservation</string>
+    <string name="sign_in_subtitle">Sign in to continue</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="empty_response">Empty response from server</string>
+    <string name="connection_error">Connection error: %1$s</string>
+
+    <!-- Main Screen -->
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="welcome_default">Welcome!</string>
+    <string name="view_products_button">View Products</string>
+    <string name="room_reservation_system">Room Reservation System</string>
+    <string name="user_info_format">Username: %1$s\nName: %2$s %3$s\nEmail: %4$s</string>
+
+    <!-- Product List Screen -->
+    <string name="products_list_title">Products List</string>
+    <string name="logout_button">Logout</string>
+    <string name="search_hint">Search products...</string>
+    <string name="search_button">Search</string>
+    <string name="no_products_found">No products found</string>
+    <string name="add_first_product">Add your first product</string>
+    <string name="add_product_description">Add Product</string>
+
+    <!-- Product Form Screen -->
+    <string name="add_product_title">Add Product</string>
+    <string name="edit_product_title">Edit Product</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="category_hint">Category</string>
+    <string name="price_hint">Price</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="product_image_optional">Product Image (Optional)</string>
+    <string name="select_image_button">Select Image</string>
+    <string name="save_product_button">Save Product</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="image_selection_coming_soon">Image selection coming soon</string>
+
+    <!-- Product Item -->
+    <string name="product_price_format">$%1$.2f</string>
+    <string name="product_quantity_format">Qty: %1$d</string>
+    <string name="edit_product_description">Edit Product</string>
+    <string name="delete_product_description">Delete Product</string>
+
+    <!-- Validation Messages -->
+    <string name="please_enter_product_name">Please enter product name</string>
+    <string name="please_select_category">Please select a category</string>
+    <string name="please_enter_price">Please enter price</string>
+    <string name="please_enter_quantity">Please enter quantity</string>
+
+    <!-- Success Messages -->
+    <string name="product_created_success">Product created successfully</string>
+    <string name="product_updated_success">Product updated successfully</string>
+    <string name="product_deleted_success">Product deleted successfully</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_products">Error loading products: %1$d</string>
+    <string name="error_loading_product">Error loading product</string>
+    <string name="error_saving_product">Error saving product</string>
+    <string name="product_already_exists">Product already exists</string>
+    <string name="missing_required_fields">Missing required fields</string>
+    <string name="unknown_error">Unknown error</string>
+
+    <!-- Dialog Messages -->
+    <string name="delete_product_title">Delete Product</string>
+    <string name="delete_product_message">Are you sure you want to delete \'%1$s\'?</string>
+    <string name="delete_button">Delete</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+
+    <!-- Categories -->
+    <string name="category_electronica">Electrónica</string>
+    <string name="category_hogar">Hogar</string>
+    <string name="category_ferreteria">Ferretería</string>
+    <string name="category_cosmetico">Cosmético</string>
+    <string name="category_oficina">Oficina</string>
+    <string name="category_limpieza">Limpieza</string>
+    <string name="category_otros">Otros</string>
 </resources>
